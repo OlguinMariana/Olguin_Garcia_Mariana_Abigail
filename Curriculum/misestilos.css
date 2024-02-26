@@ -1,0 +1,140 @@
+* {
+	margin: 0px; 
+	padding: 0px;
+    font-family: Century Gothic;
+}
+#cabeceralogo { 
+	display: flex;
+	justify-content: center; width: 96%;
+	height: 150px; 
+	padding: 0% 2%;
+	background-color: #F7E8D5;
+}
+#cabeceralogo > div { 
+	flex: 1;
+	max-width: 960px; 
+	padding-top: 45px;
+}
+#cabeceralogo h1 {
+	font: bold 54px Century Gothic, sans-serif;
+	color: black;
+}
+#menuprincipal { 
+	display: flex;
+	justify-content: center; 
+	width: 96%;
+	height: 50px; 
+	padding: 0% 2%;
+	background-color: #C6AF92;	
+	border-top: 1px solid #003265;
+	border-bottom: 1px solid #003265;
+}
+#menuprincipal > div { 
+	flex: 1;
+	max-width: 960px;
+}
+#menuprincipal li {
+	display: inline-block;
+	height: 35px;
+	padding: 15px 10px 0px 10px;
+	margin-right: 5px;
+}
+#menuprincipal li:hover {
+	background-color: #003265;
+}
+#menuprincipal a {
+	font: bold 20px Century Gothic;
+	color: white;
+	text-decoration: none;
+}
+main {
+	display: flex;
+	justify-content: center;
+	width: 96%;
+	padding: 2%;
+	background-color: #96172E;
+}
+main > div {
+	display: flex; 
+	flex: 1;
+	max-width: 960px;
+}
+#articulosprincipales {
+	flex: 1;
+	margin-right: 20px;
+	padding-top: 30px;
+	background-color: #F7E8D5;
+	border-radius: 10px;
+	font: bold 25px Century Gothic;
+	color: #000000;
+}
+
+#infoadicional { 
+	width: 280px; 
+	padding: 20px;
+	background-color: #F7E8D5; 
+	border-radius: 10px;
+	height: 720px;
+}
+#infoadicional h1 {
+	font: bold 20px Century Gothic; 
+	color: #333333;
+	margin-bottom: 15px;
+}
+article {
+	position:  relative;
+	padding: 0px 40px 20px 40px;
+}
+article time {
+	display: block; position: absolute;
+	top: -5px;
+	left: -70px;
+	width: 80px;
+	padding: 15px 5px;
+	background-color: #FFF0F5;
+	box-shadow: 3px 3px 5px #003265;
+	border-radius: 5px;
+}
+
+article h1 {
+	margin-bottom: 5px;
+	font: bold 30px Century Gothic;
+}
+article p {
+	font: 18px Century Gothic;
+}
+figure {
+	margin: 10px 0px;
+}
+figure img {
+	max-width: 98%;
+	padding: 1%; border: 1px solid;
+}
+#pielogo {
+	display: flex;
+	justify-content: center;
+	width: 96%;
+	padding: 2%;
+	background-color: #C6AF92;
+}
+#pielogo > div {
+	display: flex; flex: 1;
+	max-width: 960px; background-color: #F7E8D5;
+	border-radius: 10px;
+}
+.seccionpie {	
+	flex: 1; padding: 25px;
+
+}
+.seccionpie h1 {
+	font: bold 20px Century Gothic;
+}
+.seccionpie p { 
+	margin-top: 5px;
+}
+ 
+.seccionpie a {
+	font: bold 16px Century Gothic;
+	color: black;
+	text-decoration: none;
+}

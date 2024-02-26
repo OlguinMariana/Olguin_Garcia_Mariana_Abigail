@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <style>
+        *{
+            font-family: Century Gothic;
+            text-align: center;
+        }
+        body{
+            background-color: #F7E8D5;
+            color: #003265;
+        }
+        h1{
+            font-size: 60px;
+        }
+        main input{
+            background-color: #F7E8D5;
+            color: #003265;
+            border-color: #003265;
+        }
+        button{
+            background-color: #F7E8D5;
+            border-color: #003265;
+            color: #003265;
+        }
+    </style>
+    <script src="10_algoritmos.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Ejercicio 5</h1>
+    </header>
+    <main>
+        <p>Calcular porcentaje de mujeres y hombres de un grupo</p>
+        <form action="/" method="post">
+            <label for="hombres">Hombre</label>
+            <input type="text" name="hombres" id="hombres">
+            <br>
+            <br>
+            <label for="mujeres">Mujer</label>
+            <input type="text" name="mujeres" id="mujeres">
+            <br>
+            <br>
+            <button onclick="tarea5()">Calcular</button>
+        </form>
+    </main>
+    
+</body>
+</html>

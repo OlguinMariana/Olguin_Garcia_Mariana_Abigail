@@ -1,0 +1,79 @@
+body {
+    font-family: Century Gothic;
+    margin: 0;
+    padding: 0;
+    background-color: #C6AF92; /* Color de fondo pastel */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Cambiado de column a space-around */
+    align-items: flex-start; /* Cambiado de center a flex-start */
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: #F7E8D5; /* Color de fondo pastel */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #ffffff; /* Color de fondo pastel */
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #96172E; /* Color de fondo pastel */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #96172E; /* Color de fondo pastel */
+}
+
+.table-container {
+    height: 400px;
+    overflow-y: auto;
+    background-color: #003265; /* Color de fondo pastel */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#investment-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#investment-table th, #investment-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#investment-table th {
+    background-color: #f0ffff; /* Color de fondo pastel */
+}
+
+#total {
+    font-weight: bold;
+    margin-top: 20px;
+}
