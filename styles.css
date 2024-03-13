@@ -1,0 +1,42 @@
+body {
+    background-color: #F0E6C8;
+    font-family: Century Gothic;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #96172E;
+    color: #F7E8D5;
+    padding: 20px;
+    margin: 0;
+}
+
+div {
+    margin: 20px;
+}
+
+p {
+    color: #6D2D41;
+}
+
+a {
+    color: #003265;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C6AF92;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #6D2D41;
+}
