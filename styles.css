@@ -5,15 +5,35 @@ body {
     padding: 0;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.image-left,
+.image-right {
+    flex-basis: 30%;
+}
+
+.image-left img,
+.image-right img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    flex-basis: 30%;
+    text-align: center;
+}
+
 h1 {
     background-color: #96172E;
     color: #F7E8D5;
     padding: 20px;
     margin: 0;
-}
-
-div {
-    margin: 20px;
 }
 
 p {
